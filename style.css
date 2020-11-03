@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: PermanentMarker-Regular;
+  src: url(./fonts/PermanentMarker-Regular.ttf);
+}
+@font-face {
+  font-family: Lobster-Regular;
+  src: url(./fonts/Lobster-Regular.ttf);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.box1 {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(187, 187, 187);
+}
+
+.box2 {
+  position: absolute;
+  top: 10%;
+  width: 12%;
+  height: 90%;
+  background-color: rgb(26, 26, 26);
+}
+
+.box3 {
+  position: absolute;
+  top: 10%;
+  left: 12%;
+  width: 75%;
+  height: 70%;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: PermanentMarker-Regular;
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 4rem;
+  padding-left: 1rem;
+}
+
+#personal-link {
+  display: inline-block;
+  padding-left: 25rem;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+}
+
+#my-photo {
+  border-radius: 50%;
+  border: 0.5rem solid rgb(65, 65, 65);
+  margin-top: 5rem;
+  margin-left: 5%;
+  width: 20rem;
+  height: 20rem;
+}
+
+#personal-info {
+  font-family: Lobster-Regular;
+  padding-top: 5rem;
+  padding-left: 2rem;
+  font-size: 5rem;
+}
+
+#send-mail {
+  padding-left: 7rem;
+}
+
+#project-parnote {
+  padding-left: 7rem;
+}
+
+#einstein-quote {
+  font-size: 3rem;
+  text-align: center;
+  padding-left: 10rem;
+  padding-top: 45rem;
+}

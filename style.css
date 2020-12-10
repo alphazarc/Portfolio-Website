@@ -22,65 +22,39 @@ body {
   height: 100%;
 }
 
-.box1 {
-  position: absolute;
-  width: 100%;
-  height: 10%;
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1.1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 1.7fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "nav nav nav nav"
+    "contact content content content"
+    "contact content content content";
+}
+.nav {
+  grid-area: nav;
   background-color: rgb(187, 187, 187);
 }
-
-.box2 {
-  position: absolute;
-  top: 10%;
-  width: 12%;
-  height: 90%;
+.contact {
+  grid-area: contact;
   background-color: rgb(26, 26, 26);
 }
-
-.box3 {
-  position: absolute;
-  top: 10%;
-  left: 12%;
-  width: 75%;
-  height: 70%;
-  background-color: rgb(255, 255, 255);
-}
-
-h1 {
-  font-family: PermanentMarker-Regular;
-  display: inline-block;
-  text-align: left;
-  text-transform: uppercase;
-  font-size: 4rem;
-  padding-left: 1rem;
+.content {
+  grid-area: content;
 }
 
 #personal-link1 {
-  display: inline-block;
-  padding-left: 25rem;
-  font-size: 1.25rem;
-  padding-top: 1rem;
+  margin: 12em;
 }
-
 #personal-link2 {
-  display: inline-block;
-  padding-left: 25rem;
-  font-size: 1.25rem;
-  padding-top: 1rem;
+  margin: 12em;
 }
-
 #personal-link3 {
-  display: inline-block;
-  padding-left: 25rem;
-  font-size: 1.25rem;
-  padding-top: 1rem;
+  margin: 12em;
 }
-
 #personal-link4 {
-  display: inline-block;
-  padding-left: 25rem;
-  font-size: 1.25rem;
-  padding-top: 1rem;
+  margin: 12em;
 }
 
 #my-photo {
@@ -94,22 +68,41 @@ h1 {
 
 #personal-info {
   font-family: Lobster-Regular;
-  padding-top: 5rem;
+  padding-top: 1rem;
   padding-left: 2rem;
   font-size: 5rem;
 }
 
-#send-mail {
-  padding-left: 7rem;
-}
-
-#project-parnote {
-  padding-left: 7rem;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 2rem;
+  padding-left: 8rem;
 }
 
 #einstein-quote {
   font-size: 3rem;
   text-align: center;
   padding-left: 10rem;
-  padding-top: 45rem;
+  padding-top: 57rem;
+}
+
+#home-page {
+  font-family: PermanentMarker-Regular;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 4rem;
+  padding-left: 1rem;
+  text-decoration: none;
+  margin: 3rem;
+}
+
+.php_section {
+  font-size: 2rem;
+  text-align: center;
+  background: #eee;
+  /*display: inline-block;*/
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 7px 10px -7px rgba(50, 50, 50, 0.75);
 }

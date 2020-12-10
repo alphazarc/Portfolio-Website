@@ -1,32 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Alp Hazar Cakir</title>
-        <meta name="description" content="I'm a Computer Science student at University Of Pécs">
-        <meta charset="utf-8">
-        <meta name="robots" content="index,follow">
-        <link rel="icon" href="./img/earth_97176.ico">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="box1">
-                <h1>alp hazar cakir</h1>
-                <a id="personal-link1" target="_blank" href="https://www.linkedin.com/in/alp-hazar-cakir-8431191bb/"><img src="./img/linkedin.ico" alt="linkedin"></a>
-                <a id="personal-link2" target="_blank" href="https://github.com/alphazarc"><img src="./img/github.ico" alt="github"></a>
-                <a id="personal-link3" target="_blank" href="https://www.instagram.com/alphazarc/"><img src="./img/instagram.ico" alt="instagram"></a>
-                <a id="personal-link4" target="_blank" href="https://www.facebook.com/profile.php?id=1192789517"><img src="./img/facebook.ico" alt="facebook"></a>
-            </div>
-            <div class="box2">
-                <img id="my-photo" src="./img/portfolio-image.jpeg" alt="my-photo">
-                <a id="send-mail" href="mailto:alphazarc@gmail.com"><img src="./img/mail.ico" alt="send-mail"></a>
-                <a target="_blank" id="project-parnote" href="https://github.com/ParNote-App"><img src="./img/parnote.png" alt="project-parnote"></a>
-            </div>
-            <div class="box3">
-                <p id="personal-info">I'm a Computer Science student at University of Pécs and I like to work on front-end and back-end systems, learning new technologies and on my way to become a Software Developer.</p>
-                <p id="einstein-quote"><i>"Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.-Albert Einstein"</i></p>
-            </div>
+  <head>
+    <title>Alp Hazar Cakir</title>
+    <meta
+      name="description"
+      content="I'm a Computer Science student at University Of Pécs"
+    />
+    <meta charset="utf-8" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="./img/earth_97176.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="nav">
+        <a id="home-page" href="index.html">Alp Hazar Cakir</a>
+        <a
+          id="personal-link1"
+          target="_blank"
+          href="https://www.linkedin.com/in/alp-hazar-cakir-8431191bb/"
+          ><img src="./img/linkedin.ico" alt="linkedin"
+        /></a>
+        <a
+          id="personal-link2"
+          target="_blank"
+          href="https://github.com/alphazarc"
+          ><img src="./img/github.ico" alt="github"
+        /></a>
+        <a
+          id="personal-link3"
+          target="_blank"
+          href="https://www.instagram.com/alphazarc/"
+          ><img src="./img/instagram.ico" alt="instagram"
+        /></a>
+        <a
+          id="personal-link4"
+          target="_blank"
+          href="https://www.facebook.com/profile.php?id=1192789517"
+          ><img src="./img/facebook.ico" alt="facebook"
+        /></a>
+      </div>
+      <div class="contact">
+        <img id="my-photo" src="./img/portfolio-image.jpeg" alt="my-photo" />
+        <ul>
+          <li>
+            <a id="send-mail" href="mailto:alphazarc@gmail.com"
+              ><img src="./img/mail.ico" alt="send-mail"
+            /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              id="project-parnote"
+              href="https://github.com/ParNote-App"
+              ><img src="./img/parnote.png" alt="project-parnote"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <p id="personal-info">
+          I'm a Computer Science student at University of Pécs and I like to
+          work on front-end and back-end systems, learning new technologies and
+          on my way to become a Software Developer.
+        </p>
+        <div class="php_section">
+          <!--####### PHP TUTORIAL #######-->
+          <!------------------------------
+
+    -------PRINTING------- -->
+          <h2>PRINTING</h2>
+          <pre>&lt;?php
+            echo "<h2>PHP is Fun!</h2>";
+            echo "Hello world!<br>";
+            echo "I'm about to learn PHP!<br>";
+            echo "This ", "string ", "was ", "made ", "with multiple parameters.";
+            ?&gt;</pre>
+
+          <!-- -------VARIABLES------- -->
+          <h2>VARIABLES</h2>
+          <pre>
+&lt;?php
+        $txt = "W3Schools.com";
+        echo "I love $txt!";
+        &gt;</pre
+          >
+
+          <!-- -------DATA TYPES------- 
+    ###STRING### -->
+          <h2>STRING</h2>
+          <pre>&lt;?php
+    $x = "Hello world!";
+    $y = 'Hello world!';
+
+    echo $x;
+    echo "<br>";
+    echo $y;
+    &gt;</pre>
+
+          <!-- ###INTEGER### -->
+          <h2>INTEGER</h2>
+          <pre>
+&lt;?php
+    $x = 5985;
+    var_dump($x);
+    ?&gt;</pre
+          >
+
+          <!-- ###FLOAT### -->
+          <h2>FLOAT</h2>
+          <pre>
+&lt;?php
+    $x = 10.365;
+    var_dump($x);
+    ?&gt;</pre
+          >
+
+          <!-- ###BOOLEAN### -->
+          <h2>BOOLEAN</h2>
+          <pre>
+$x = true;
+    $y = false;</pre
+          >
+
+          <!-- ###ARRAY### -->
+          <h2>ARRAY</h2>
+          <pre>
+&lt;?php
+    $cars = array("Volvo","BMW","Toyota");
+    var_dump($cars);
+    ?&gt;</pre
+          >
         </div>
-    </body>
+        <p id="einstein-quote">
+          <i
+            >"Imagination is more important than knowledge. For knowledge is
+            limited, whereas imagination embraces the entire world, stimulating
+            progress, giving birth to evolution.-Albert Einstein"</i
+          >
+        </p>
+      </div>
+    </div>
+  </body>
 </html>

@@ -55,7 +55,28 @@ h1 {
   padding-left: 1rem;
 }
 
-#personal-link {
+#personal-link1 {
+  display: inline-block;
+  padding-left: 25rem;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+}
+
+#personal-link2 {
+  display: inline-block;
+  padding-left: 25rem;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+}
+
+#personal-link3 {
+  display: inline-block;
+  padding-left: 25rem;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+}
+
+#personal-link4 {
   display: inline-block;
   padding-left: 25rem;
   font-size: 1.25rem;

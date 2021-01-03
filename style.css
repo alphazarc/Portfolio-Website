@@ -96,13 +96,3 @@ ul {
   text-decoration: none;
   margin: 3rem;
 }
-
-.php_section {
-  font-size: 2rem;
-  text-align: center;
-  background: #eee;
-  /*display: inline-block;*/
-  padding: 25px;
-  border-radius: 20px;
-  box-shadow: 0px 7px 10px -7px rgba(50, 50, 50, 0.75);
-}

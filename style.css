@@ -33,8 +33,15 @@ body {
     "contact content content content";
 }
 .nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
   grid-area: nav;
   background-color: rgb(187, 187, 187);
+}
+.nav li {
+  list-style: none;
 }
 .contact {
   grid-area: contact;
@@ -44,36 +51,25 @@ body {
   grid-area: content;
 }
 
-#personal-link1 {
-  margin: 12em;
-}
-#personal-link2 {
-  margin: 12em;
-}
-#personal-link3 {
-  margin: 12em;
-}
-#personal-link4 {
-  margin: 12em;
-}
-
 #my-photo {
   border-radius: 50%;
   border: 0.5rem solid rgb(65, 65, 65);
   margin-top: 5rem;
   margin-left: 5%;
-  width: 20rem;
-  height: 20rem;
+  width: 203px;
+  height: 203px;
+  border-radius: 50%;
+  max-width: 100%;
 }
 
 #personal-info {
-  font-family: Lobster-Regular;
+  font-family: "Libre Baskerville", serif;
   padding-top: 1rem;
   padding-left: 2rem;
   font-size: 5rem;
 }
 
-ul {
+.extra-links {
   list-style-type: none;
   margin: 0;
   padding-top: 2rem;
@@ -83,8 +79,9 @@ ul {
 #einstein-quote {
   font-size: 3rem;
   text-align: center;
-  padding-left: 10rem;
-  padding-top: 57rem;
+  margin-left: 10rem;
+  margin-top: 57.6rem;
+  max-width: 100%;
 }
 
 #home-page {
